@@ -1,7 +1,7 @@
 ---
 document: OVERVIEW.md
 version: 0.1.0
-last_update: 2025-10-20
+last_update: 2025-10-21
 maintainer: thadio
 status: active
 ---
@@ -22,15 +22,12 @@ status: active
 
 Descreva aqui o contexto geral do projeto, seus objetivos estratégicos e o público-alvo atendido.
 
+Plataforma web hospedada em servidor compartilhado da HostGator para (preencher e detalhar). O ambiente exige compatibilidade com PHP 8.x, MySQL 8.x e Apache 2.4, sem uso de containers ou processos residentes. Interfaces responsivas permitem acompanhamento em desktop e dispositivos móveis via navegadores modernos.
+
 ## Objetivos do Projeto
 
-- Registrar metas de curto, médio e longo prazo.
-- Detalhar indicadores de sucesso.
-- Destacar restrições ou premissas de negócio.
+- Manter arquitetura MVC em PHP aderente às limitações do HostGator, assegurando desempenho e segurança com recursos compartilhados.
 
 ## Stakeholders Principais
 
-- Nome do responsável ou área — papel na iniciativa.
-- Nome do patrocinador — alinhamento esperado.
-- Equipe técnica — responsabilidades principais.
-
+- definir os principais stakeholders e detalhar suas principais tarefas, responsabilidades e atribuições, bem como apresentar a matriz de acessos ao sistema baseadas nesses stakeholders.

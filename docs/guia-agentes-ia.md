@@ -1,7 +1,7 @@
 ---
 document: guia-agentes-ia.md
 version: 0.1.0
-last_update: 2025-10-20
+last_update: 2025-10-21
 maintainer: thadio
 status: active
 ---
@@ -20,6 +20,7 @@ Este guia padroniza a atuação de agentes de IA responsáveis por manter docume
 ## Fluxo de Trabalho Recomendido
 
 - **Analisar contexto:** revisar histórico recente, issues e pendências.
+- **Validar restrições de hospedagem:** garantir que decisões de arquitetura permaneçam compatíveis com PHP/MySQL/Apache em ambiente HostGator compartilhado (sem containers, Node.js ou serviços residentes).
 - **Planejar ações:** compor plano objetivo antes de editar arquivos.
 - **Executar alterações:** priorizar `apply_patch` para garantir rastreabilidade.
 - **Validar e registrar:** confirmar estrutura e atualizar `CHANGELOG.md`.
@@ -35,4 +36,3 @@ Este guia padroniza a atuação de agentes de IA responsáveis por manter docume
 - Registrar toda alteração relevante no `CHANGELOG.md` com data e resumo.
 - Informar dependências novas ou removidas no arquivo apropriado.
 - Sincronizar o índice presente em `OVERVIEW.md` ao adicionar ou renomear documentos.
-
